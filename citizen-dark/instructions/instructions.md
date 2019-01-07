@@ -337,7 +337,7 @@ by tightening the M2 screws.
 ![strain relief screwed in - bottom](img/strain-relief-4.jpg)
 
 To make sure the strain relief hasn't caused any problems,
-test the panel to make sure they still light up without any problems.
+test the panel to make sure they still light up.
 If the panel didn't light up, try loosening the strain relief to see
 if it inadvertently caused a short or pierced the plastic.
 
@@ -347,9 +347,9 @@ if it inadvertently caused a short or pierced the plastic.
 Step 3 : Cut EL Panels and Rough Patch Alignment
 ---
 
-![gloriously cut cloth patches](img/cut-overview-0.jpg]
+![gloriously cut cloth patches](img/cut-overview-0.jpg)
 
-![gloriously cut cloth patches](img/cut-overview-1.jpg]
+![gloriously cut cloth patches](img/cut-overview-1.jpg)
 
 Once the cloth portion of the patches has been cut, we can now
 start cutting the EL panels to fit the cloth patches and align them
