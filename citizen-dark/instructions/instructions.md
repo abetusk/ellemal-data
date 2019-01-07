@@ -92,8 +92,8 @@ the laser cutter.
 The cloth above is heavy duty Nylon.
 Though Nylon melts in the laser cutter, it's still able to retain a lot of the detail
 of the source image.
-Since Nylon melts, this helps a bit as it cauterizes the edge of the fabric, where it
-cuts, to make a nice seal.
+Since Nylon melts when heated, this helps to make resulting patch more robust as it cauterizes the edge of the fabric
+to make a nice seal.
 
 <details><summary>Materials list</summary>
   <p>
@@ -129,7 +129,7 @@ Gimp is used to create the art patch.
 LaserWeb4 is used to convert the art patch to GCode to be sent to the laser cutter.
 
 For laser cutters that can take files directly, such as the Epilog Zing, Laser Web 4
-isn't needed as the Epilog drivers convert the art file directly.
+isn't needed.
 
 Step 1 : Design Art and Lettering
 ---
@@ -137,13 +137,14 @@ Step 1 : Design Art and Lettering
 The [art](https://github.com/abetusk/ellemal-data/tree/release/citizen-dark/moth/export/moth_v0.1.6.4.png)
 and [lettering](https://github.com/abetusk/ellemal-data/tree/release/citizen-dark/moth/export/) are available
 on the [GitHub page for this project](https://github.com/abetusk/ellemal-data/tree/release/citizen-dark/moth).
-If you'd like to use the art already created, you can proceed to [Step 2](#step2).
+If you'd like to use the art already created, you can proceed to step 2.
+
 
 The first step is to get a general sense of the design and pick out art
 to be used in the patch.
 We wanted a modern occult look with a moth as the centerpiece.
 [Archive.org](https://archive.org) has a massive database of pulbic domain
-texts, including art.
+texts and art.
 
 We searched Archive.org for old texts from the 1800s and before.
 We found a good filter was to look for natural history texts with
@@ -176,7 +177,7 @@ with 2-4 pixels spacing between other black regions, worked well.
 This is dependent on image resolution and final physical design size,
 so this might need a few iterations to determine which regions to
 re-enforce and by how much.
-We also added some 'noise' to the wings by choosing a brush with a scattershot' look
+We also added some 'noise' to the wings by choosing a "noisy" brush
 and added some jitter to give some randomness.
 This extra noise helps reinforce the material as the laser won't burn the
 portions that are dark.
