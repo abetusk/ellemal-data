@@ -135,8 +135,11 @@ and imported it into Gimp ([Archive.org link to original picture](https://archiv
 We cropped it, converted to a black and white image and then did a threshold on
 it to make it as close to a two color stencil as possible.
 
-![GIMP threshold](gimp-threshold-moth.jpg)
+![GIMP threshold](img/gimp-threshold-moth.jpg)
 
+We added some other effects, like a triangle that inverts the base moth image,
+a dotted circle and an styalized eclipse at the bottom (taking as source
+material another [Archive.org link to a lunar eclipse](https://archive.org/details/lesmerveillesc00flam/page/328))
 
 The white pixels will be 'burned' by the laser cutter.
 This means that any 'islands' of black surrounded by white will fall out.
@@ -205,9 +208,9 @@ Each word was placed within a bounding rectangle.
 This rectangle will be cut by the laser cutter and represents the bounds of the
 patch lettering.
 
-![citizen lettering with border in Inkscape](inkscape-citizen-lettering.jpg)
+![citizen lettering with border in Inkscape](img/inkscape-citizen-lettering.jpg)
 
-![dark lettering with border in Inkscape](inkscape-dark-lettering.jpg)
+![dark lettering with border in Inkscape](img/inkscape-dark-lettering.jpg)
 
 In our case, this was making the lettering 60mm in height with a 20mm border on each
 side for the box, giving us 100mm for the total height and just under 260mm for the visible
