@@ -396,7 +396,39 @@ make sure the patch looks good.
 
 ![EL patch spot check](img/el-cut-4.jpg)
 
-Do this for all three panels before moving on.
+Once we're happy with the rough placement, it's time to glue the cloth portion
+to the EL panel.
+The synthetic material along with the plastic on the EL panel means that not
+all glue will work well.
+We've found Gorilla glue to be a decent choice though you should feel free to
+experiment.
+Glue that has not worked is Elmer's glue and superglue.
+
+![glue prep](img/glue-0.jpg)
+
+Put a thin layer of Gorilla glue on the region of the cloth that will be over the EL
+panel.
+Don't put too much as the Gorilla glue will expand and be messy.
+Try to get the thin regions of the cloth as they'll tend to flop around.
+
+![intial glue on cloth](img/glue-1.jpg)
+
+Now affix the cloth to the EL panel and wait for the glue to dry.
+Do fine adjustments, with the EL panel turned on, to make sure the cloth
+placement looks good.
+
+![final glue placement](img/glue-2.jpg)
+
+If you can, put something on top of the cloth to try and provide some pressure.
+Don't worry about the glue being messy.
+Though little glue spots are unseemly, in low lighting and when the panel is lit
+up, they're not noticeable.
+
+Gorilla glue takes 2-4 hours to be dry enough for handling.
+Glue each cloth panel to it's corresponding EL panel and let it dry.
+
+Once all three patches are dry, we're ready to do the final placement on the back of the jacket.
+
 
 
 Step 4 : Align and Affix to Jacket
