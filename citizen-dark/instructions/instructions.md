@@ -91,6 +91,16 @@ of the source image.
 Since Nylon melts, this helps a bit as it cauterizes the edge of the fabric, where it
 cuts, to make a nice seal.
 
+<details><summary>Materials list</summary>
+  <p>
+    
+    | a | table |
+    |---|---|
+    | for | you! |
+    
+  </p>
+</details>
+
 ### Software
 
 The software is optimized for the workflow we've developed but other software
