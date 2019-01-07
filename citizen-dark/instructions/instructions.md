@@ -56,7 +56,7 @@ Even though the idea is pretty simple the results look striking.
 Step 0 : Materials and Tools
 ---
 
-* Access to a laser cutter (for cutting the cloth patches)
+* Access to a laser cutter (for cutting the cloth patches) (We use a [K40 40W CO2 laser engraver](https://www.ebay.com/bhp/40w-laser) modified with a [smoothieboard](http://smoothieware.org/smoothieboard) to control the motors and laser).
 * Cloth (heavy duty nylon) ([Amazon link](https://www.amazon.com/gp/product/B002C6DAXE/))
 * 3 EL panels, 1 A4 size (300mmx210mm) and two A5 size (210mmx150mm) ([Ebay A4 link](https://www.ebay.com/itm/12V-A4-EL-Panel-Electroluminescent-Cuttable-Light-With-Inverter-Paper-Neon-Sheet/292622036778), [Ebay A5 link](https://www.ebay.com/itm/White-A5-EL-Panel-Electroluminescent-Cuttable-Sheet-Neon-Paper-12V-Actuator-US/362404815900))
 * EL Extension wires and splitters ([Ebay EL wire extension link](https://www.ebay.com/itm/15-2-way-EL-Wire-Splitter-Cable-Connector-Extension-Line-Decorative-Black-Red/382637753018), [Ebay splitter link, 5way](https://www.ebay.com/itm/5-way-EL-Wire-Splitter-Extension-Cable-Line-Decor-Tool-Female-Connector-Black/312253408137))
@@ -93,7 +93,7 @@ cuts, to make a nice seal.
 
 ### Software
 
-The software is optimized for the workflow we developed but other software
+The software is optimized for the workflow we've developed but other software
 can be used depending on what you're familiar with or what kind of laser cutter
 you have access to.
 
@@ -111,9 +111,9 @@ isn't needed as the Epilog drivers convert the art file directly.
 Step 1 : Design Art and Lettering
 ---
 
-The [art](https://github.com/abetusk/2d/blob/release/ellemal/moth/export/moth_v0.1.6.4.png)
-and [lettering](https://github.com/abetusk/2d/blob/release/ellemal/moth/export/) are available
-on the [GitHub page for this project](https://github.com/abetusk/2d/tree/release/ellemal/moth).
+The [art](https://github.com/abetusk/ellemal-data/tree/release/citizen-dark/moth/export/moth_v0.1.6.4.png)
+and [lettering](https://github.com/abetusk/ellemal-data/tree/release/citizen-dark/moth/export/) are available
+on the [GitHub page for this project](https://github.com/abetusk/ellemal-data/tree/release/citizen-dark/moth).
 If you'd like to use the art already created, you can proceed to [Step 2](#step2).
 
 The first step is to get a general sense of the design and pick out art
@@ -131,11 +131,12 @@ Photographs often have too much detail that lead to artifacts and noise
 in the final stencil.
 
 Once we decided on a source picture, we downloaded a large resolution of the image
-and imported it into Gimp.
+and imported it into Gimp ([Archive.org link to original picture](https://archive.org/details/amongmothsbutter00balluoft/page/122)).
 We cropped it, converted to a black and white image and then did a threshold on
 it to make it as close to a two color stencil as possible.
 
-![img gimp steps]()
+![GIMP threshold](gimp-threshold-moth.jpg)
+
 
 The white pixels will be 'burned' by the laser cutter.
 This means that any 'islands' of black surrounded by white will fall out.
@@ -149,19 +150,24 @@ with 2-4 pixels spacing between other black regions, worked well.
 This is dependent on image resolution and final physical design size,
 so this might need a few iterations to determine which regions to
 re-enforce and by how much.
+We also added some 'noise' to the wings by choosing a brush with a scattershot' look
+and added some jitter to give some randomness.
+This extra noise helps reinforce the material as the laser won't burn the
+portions that are dark.
 
 Once the art piece has been cleaned up, we export to PNG format and
 import the PNG into LaserWeb4.
+
+![LaserWeb4 screenshot](img/laserweb-moth.jpg)
+
 The parameters in LaserWeb4 were tailored to the laser cutter
 we have access to.
-In our case, the laser cutter cut speed was set to 4999 mm/min,
+In our case, the laser cutter cut speed was set to `4999 mm/min`,
 with the `Burn White` option unselected and the `Invert Color` option selected.
 
 The PNG image in LaserWeb4 is resized to the desired final size.
 In our case, this was mostly limited to the bed size of the laser cutter,
 which has a maximum work area of roughly 7 inches in height and 11 inches in width.
-
-![laserweb4 params]()
 
 Once we're happy with the set parameters and sizing, we export the image to GCode
 and save it.
@@ -186,15 +192,31 @@ The Blackout font has two paths per letter, one that represents the outside
 and the other for the inside.
 In order to only cut one path, the inside path for each character was removed.
 
+![convert lettering to path in Inkscape](img/inkscape-convert-lettering-path.jpg)
+
+![delete inner path of lettering in Inkscape](img/inkscape-delete-lettering-interior.jpg)
+
 We chose to display metric units for Inkscape and resized the lettering large enough
 to cover most of the back of the jacket but small enough to fit within
 the laser cutter bed.
+
 
 Each word was placed within a bounding rectangle.
 This rectangle will be cut by the laser cutter and represents the bounds of the
 patch lettering.
 
-Using a custom script (called [svg2ngc]()), we converted the SVG file to a GCode.
+![citizen lettering with border in Inkscape](inkscape-citizen-lettering.jpg)
+
+![dark lettering with border in Inkscape](inkscape-dark-lettering.jpg)
+
+In our case, this was making the lettering 60mm in height with a 20mm border on each
+side for the box, giving us 100mm for the total height and just under 260mm for the visible
+portion of the longest word ("CITIZEN") with the total size of the longest text patch
+being 300mm.
+
+Using a custom script (called [svg2ngc](https://github.com/abetusk/ellemal-data/tree/release/citizen-dark/lettering/export/svgn2nc)), we converted the SVG file to a GCode.
+The parameters used were `8000 mm/min` for rapid speed, `1500 mm/min` for cutting speed and full power
+for the laser (in our case a 40W CO2)
 
 Once we have the three GCode files, one for the art and the other two for each
 word of the lettering ("CITIZEN DARK"), we are ready to cut the cloth.
