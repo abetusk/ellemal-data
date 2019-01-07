@@ -58,21 +58,22 @@ Step 0 : Materials and Tools
 
 * Access to a laser cutter (for cutting the cloth patches)
 * Cloth (heavy duty nylon) ([Amazon link](https://www.amazon.com/gp/product/B002C6DAXE/))
-* 3 EL panels, 1 A4 size and two A6 size
-* inverter plus batteries and battery pack
-* Glue (gorilla)
-* Jacket
-* Velcro
+* 3 EL panels, 1 A4 size (300mmx210mm) and two A5 size (210mmx150mm) ([Ebay A4 link](https://www.ebay.com/itm/12V-A4-EL-Panel-Electroluminescent-Cuttable-Light-With-Inverter-Paper-Neon-Sheet/292622036778), [Ebay A5 link](https://www.ebay.com/itm/White-A5-EL-Panel-Electroluminescent-Cuttable-Sheet-Neon-Paper-12V-Actuator-US/362404815900))
+* EL Extension wires and splitters ([Ebay EL wire extension link](https://www.ebay.com/itm/15-2-way-EL-Wire-Splitter-Cable-Connector-Extension-Line-Decorative-Black-Red/382637753018), [Ebay splitter link, 5way](https://www.ebay.com/itm/5-way-EL-Wire-Splitter-Extension-Cable-Line-Decor-Tool-Female-Connector-Black/312253408137))
+* inverter plus batteries and battery pack ([Ebay link](https://www.ebay.com/itm/New-12v-Battery-Box-inverter-for-15-Meters15M-EL-Wire-EL-Panel-EL-Tape-XMAS/322616309101))
+* Glue (gorilla) ([Amazon link](https://www.amazon.com/Gorilla-Original-Waterproof-Polyurethane-Bottle/dp/B0000223UV))
+* Jacket (Take your pick but we used a Forever 21 cropped faux leather jacket, [example link](https://poshmark.com/listing/Forever-21-Faux-Leather-Jacket-5c326999534ef9b07b6658c3))
+* Velcro (heavy duty) ([Amazon link](https://www.amazon.com/VELCRO-Brand-Industrial-Strength-Superior/dp/B00006RSP1))
 * Scissors
-* EL Extension wires and splitters
+
 * Soldering Iron
 * (optional) 'helping hands'
 * Solder
 * (optional) solder flux
-* (optional) Delrin or Acetal (for strain relief)
-* (optional) M2 bolts and nuts, at least 8mm in length (longer is ok)
+* (optional) 1/16" thick Delrin or Acetal for strain relief ([Amazon link](https://www.amazon.com/Acetal-Copolymer-Standard-Tolerance-Thickness/dp/B0070ZYI0Q))
+* (optional) M2 bolts and nuts, at least 8mm in length (longer is ok) ([Amazon link](https://www.amazon.com/Hilitchi-600-Piece-Phillips-Assortment-stainless/dp/B01N2XYON0))
 * (optional) M2 screwdriver
-* (optional) loctite
+* (optional) blue loctite ([Amazon link](https://www.amazon.com/Loctite-Heavy-Duty-Threadlocker-Single/dp/B000I1RSNS/))
 
 Note that you can use any material for the cloth but not all material
 is safe to laser cut.
