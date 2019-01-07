@@ -25,14 +25,14 @@ This project is an attempt to make visually pleasing wearables
 more accessible to the public.
 
 The method is versatile enough that you can affix the EL patches
-to other pieces of clothing but this instrucatble will focus
+to other pieces of clothing but this instructable will focus
 on making EL patches just for jackets.
 
 The total cost is roughly $100, $50 in EL panels, $30 for
 the jacket and the rest for miscellaneous cost, such as the
 cloth, glue, etc.
 
-The method described in this instrucable will be focused
+The method described in this instructable will be focused
 on the workflow used to create the EL panels but can
 be altered depending on what kind of access to materials,
 software and machines you have.
@@ -46,7 +46,7 @@ The patches are semi flexible and act like standard jacket patches.
 
 The patches on the jacket are a bit fragile but can withstand "everyday"
 usage.
-Protetecting the panels from breakage is an ongoing experiment
+Protecting the panels from breakage is an ongoing experiment
 and the current methods presented below, such as strain relief, are
 our current attempts at making the panels more robust against normal
 use.
@@ -143,7 +143,7 @@ If you'd like to use the art already created, you can proceed to step 2.
 The first step is to get a general sense of the design and pick out art
 to be used in the patch.
 We wanted a modern occult look with a moth as the centerpiece.
-[Archive.org](https://archive.org) has a massive database of pulbic domain
+[Archive.org](https://archive.org) has a massive database of public domain
 texts and art.
 
 We searched Archive.org for old texts from the 1800s and before.
@@ -170,9 +170,9 @@ This means that any 'islands' of black surrounded by white will fall out.
 These islands should either be removed or, if important to the design, be attached
 to a connecting region.
 
-Care has to be taken to re-enforce thin black lines as a high powered laser
+Care has to be taken to reinforce thin black lines as a high powered laser
 will obliterate the line.
-We foud that re-enforcing thin black lines to be at least 2-4 pixels wide
+We found that reinforcing thin black lines to be at least 2-4 pixels wide
 with 2-4 pixels spacing between other black regions, worked well.
 This is dependent on image resolution and final physical design size,
 so this might need a few iterations to determine which regions to
