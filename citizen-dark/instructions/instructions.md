@@ -1,6 +1,15 @@
 Cyberpunk Jacket
 ===
 
+![back jacket shot](img/wall-fist.jpg)
+
+| | |
+|---|---|
+| ![back detail](img/back.jpg) | ![moth detail](img/moth-detail.jpg) |
+| ![I am a meat popsicle](img/meat-popsicle.jpg) | ![aux shot](img/wall-relief.jpg) |
+
+
+
 Introduction
 ---
 
