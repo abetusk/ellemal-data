@@ -48,10 +48,10 @@ The patches on the jacket are a bit fragile but can withstand "everyday"
 usage.
 Protetecting the panels from breakage is an ongoing experiment
 and the current methods presented below, such as strain relief, are
-our current attempts at making the panels more robust against everyday
+our current attempts at making the panels more robust against normal
 use.
 
-Even though the idea is pretty simple the results look striking.
+Even though the idea is pretty simple, we think the results look striking.
 
 Step 0 : Materials and Tools
 ---
