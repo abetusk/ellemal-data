@@ -292,7 +292,7 @@ Options for troubleshooting bad cuts this will be dependent on the art,
 the laser cutter and the materials being cut.
 
 Some common options to improve the cuts are
-re-encorcing thin black lines in the original art,
+reinforcing thin black lines in the original art,
 altering the laser cutter power and changing the cut laser cut speed.
 
 ![cut patch](img/laser-cut-5.jpg)
@@ -422,7 +422,7 @@ to tell where the panel's light boundaries are.
 
 ![cloth placement check on EL panel](img/el-cut-2.jpg)
 
-Cover the strip with electrical tape to re-enforce it and make sure there's minimal light bleeding
+Cover the strip with electrical tape to reinforce it and make sure there's minimal light bleeding
 outside of the area we're interested in.
 
 ![cover EL access strip with electrical tape](img/el-cut-3.jpg)
@@ -513,7 +513,7 @@ Though little glue spots are unseemly, in low lighting and when the panel is lit
 up, they're not noticeable.
 
 Gorilla glue takes 2-4 hours to be dry enough for handling.
-Glue each cloth panel to it's corresponding EL panel and let it dry.
+Glue each cloth panel to its corresponding EL panel and let it dry.
 
 Once all three patches are dry, we'll be ready to do the final placement on the back of the jacket.
 
@@ -628,7 +628,7 @@ There are some common failures that tend to occur:
 * Check each of the panels individually with another inverter or battery pack to make sure they work in isolation.
 
 As with any troubleshooting, the purpose is to determine where the problem is.
-Is it happening after the batter pack or before?
+Is it happening after the battery pack or before?
 Is it happening after the inverter or before?
 Is it happening at the EL panel or before?
 

@@ -59,7 +59,7 @@ Credits
 License
 ---
 
-All files in this directory, unless explicitely stated otherwise,
+All files in this directory, unless explicitly stated otherwise,
 are under a [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/) license.
 
 Credit is not necessary but appreciated.

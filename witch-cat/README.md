@@ -22,7 +22,7 @@ to the routed wires in the jacket.
 Notes
 ---
 
-* To alleviate strain on EL pnael connections, a strain relief piece is put on the ends.
+* To alleviate strain on EL panel connections, a strain relief piece is put on the ends.
 * The `WITCH` is longer than the A6 panels used, so two A6 panels were put together, cutting
   each so that the 'seam' would be underneath the fabric patch in between the `WIT` and the `CH`.
 * See lettering for more details on the lettering specifics. I believe the outline was combined
@@ -33,7 +33,7 @@ Notes
 License
 ---
 
-All images, source code and data files, unless otherwise explicitely stated, are under a CC0
+All images, source code and data files, unless otherwise explicitly stated, are under a CC0
 license.
 
 ![cc0](/img/cc/thin/cc-zero.svg)
