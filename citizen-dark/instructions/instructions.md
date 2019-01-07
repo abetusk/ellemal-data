@@ -65,9 +65,13 @@ Step 0 : Materials and Tools
 * Jacket (Take your pick but we used a Forever 21 cropped faux leather jacket, [example link](https://poshmark.com/listing/Forever-21-Faux-Leather-Jacket-5c326999534ef9b07b6658c3))
 * Velcro (heavy duty) ([Amazon link](https://www.amazon.com/VELCRO-Brand-Industrial-Strength-Superior/dp/B00006RSP1))
 * Scissors
+* (optional) Electrical tape
 
 * Soldering Iron
 * (optional) 'helping hands'
+* (optional) heat shrink tubing ([Amazon link](https://www.amazon.com/560PCS-Heat-Shrink-Tubing-Eventronic/dp/B072PCQ2LW))
+* (optional) heat gun ([Amazon link](https://www.amazon.com/Wagner-Spraytech-0503008-Heat-Gun/dp/B00004TUCV/))
+* (optional) wire strippers ([Amazon link](https://www.amazon.com/Multi-Purpose-Stripper-Klein-Tools-1011/dp/B0000302WM))
 * Solder
 * (optional) solder flux
 * (optional) 1/16" thick Delrin or Acetal for strain relief ([Amazon link](https://www.amazon.com/Acetal-Copolymer-Standard-Tolerance-Thickness/dp/B0070ZYI0Q))
@@ -94,9 +98,18 @@ cuts, to make a nice seal.
 <details><summary>Materials list</summary>
   <p>
     
-    | a | table |
-    |---|---|
-    | for | you! |
+| Description |  |
+|---|---|
+| jacket | ![materials](img/materials-0.jpg) |
+| EL panels (1xA4, 2xA5), inverter and battery pack | ![materials](img/materials-1.jpg) |
+| uncut cloth | ![materials](img/materials-2.jpg) |
+| sectioned cloth | ![materials](img/materials-2.5.jpg) |
+| scissors, glue, wire extensions, velcro | ![materials](img/materials-3.jpg) |
+| soldering iron, solder, flux, helping hands | ![materials](img/materials-4.jpg) |
+| M2 screws and nuts with screwdriver | ![materials](img/materials-5.jpg) |
+| M2 screws and nuts, screwdriver, loctite, 1/16" acetal sheet | ![materials](img/materials-6.jpg) |
+| wire strippers and heat shrink tubing | ![materials](img/materials-7.jpg) |
+| helping hands and heat gun | ![materials](img/materials-8.jpg) |
     
   </p>
 </details>
@@ -238,6 +251,19 @@ word of the lettering ("CITIZEN DARK"), we are ready to cut the cloth.
 Step 2 : Cut Design on Laser Cutter
 ---
 
+![k40 laser cutter](img/laser-cut-0.jpg)
+
+<details><summary>K40 laser cutter</summary>
+  <p>
+
+| |
+|---|
+| ![laser cutter picture](img/laser-cut-1.jpg) |
+| ![laser cutter picture](img/laser-cut-2.jpg) |
+
+  </p>
+</details>
+
 For each design, a large piece of cloth is initially cut with scissors
 and placed on the laser cutter bed.
 The size of the cut cloth needs to be larger than the pattern to be cut but
@@ -248,7 +274,9 @@ can help to make sure it's secured firmly.
 If the fabric needs securing, whatever method used should not obscure the
 cut area.
 
-We chose mylar cloth that is thick so we left the laser cutter power at full
+![placed cloth on laser cutter bed](img/laser-cut-3.jpg)
+
+We chose nylon cloth that is thick so we left the laser cutter power at full
 (as chosen in the GCode conversion in LaserWeb4 above).
 If cutting thinner cloth, a high power on the laser cutter might lose detail but
 for the cloth we use, this is not a concern.
@@ -266,6 +294,8 @@ Some common options to improve the cuts are
 re-encorcing thin black lines in the original art,
 altering the laser cutter power and changing the cut laser cut speed.
 
+![cut patch](img/laser-cut-5.jpg)
+
 Once each piece is cut on the laser cutter, carefully remove
 the work from the bed, making sure not to damage the interior
 detail.
@@ -280,7 +310,7 @@ To help mitigate this failure mode, a strain relief is put on
 the ends of the panels to help take the load off of where the wire
 connects to the panel.
 
-![strain relief image](https://raw.githubusercontent.com/abetusk/2d/release/ellemal/experiment/strain-relief/img/strain-relief-closeup.png)
+![strain relief image](img/strain-relief-closeup.png)
 
 The EL panels will still work without this strain relief, they
 just might fray with repeated use.
@@ -290,23 +320,103 @@ or Delrin as the material.
 Each strain relief object consists of two pieces that are screwed
 together by 6 M2 screws.
 
+![strain relief next to panel](img/strain-relief-1.jpg)
+
+
 The wire coming out of the EL panel should be wrapped around and then
 fed through the middle of the two pieces.
 The end of the panel as well as the wire coming out of the strain relief
 are sandwitched between the two pieces and kept securely in place
 by tightening the M2 screws.
 
+![strain relief wire placement](img/strain-relief-2.jpg)
+
+![strain relief screwed in - top](img/strain-relief-3.jpg)
+
+![strain relief screwed in - bottom](img/strain-relief-4.jpg)
+
+To make sure the strain relief hasn't caused any problems,
+test the panel to make sure they still light up without any problems.
+If the panel didn't light up, try loosening the strain relief to see
+if it inadvertently caused a short or pierced the plastic.
+
+![strain relief, testing panel](img/strain-relief-5.jpg)
+
 
 Step 3 : Make EL Patches
 ---
 
-* aligning art
-* cutting el panel
-* gluing cut art to el panel
-* putting velcro on
+![gloriously cut cloth patches](img/cut-overview-0.jpg]
+
+Once the cloth portion of the patches has been cut, we can now
+start cutting the EL panels to fit the cloth patches and align them
+to the jacket.
+The basic plan is to align the cloth patches on top of the EL panels,
+cut the excess EL panel to fit the cloth patch then glue the patch
+onto the panel.
+
+![cut patches on top of uncut EL panels](img/cut-overview-1.jpg)
+
+The first thing to do is to align the cloth patch on top of the EL panel
+and mark where the excess EL panel should be cut.
+We've found that overlaying masking tape on top of the EL panel so we can mark it
+without worrying about marking the lit area works well.
+
+![traced cut area for EL panel](img/el-cut-0.jpg)
+
+Once we've decided where to cut, cut the EL panel with scissors.
+**Don't cut the EL panel while powered. Power off the EL panel while
+cutting unless you want to get a shock.**
+When cutting the EL panel with scissors, you want to make sure not to
+twist or bend the panel, scissors or shear line where you're cutting.
+We want to keep the top and bottom layer of the plastic coating on the
+EL panel as undisturbed as possible to make sure there's a solid connection
+so the whole panel can fluresce.
+
+We want to leave a portion of the EL panel available so that it can go into
+a cut access hole in the back of the jacket.
+In the image, you can see a long "trace" of EL panel that will feed into
+the access hole in the back of the jacket.
+
+![cut EL panel](img/el-cut-1.jpg)
+
+Once the panel is cut, place the cloth patch over to make sure it looks good.
+Make sure to do placement like this with the EL panel on as it's sometimes hard
+to tell where the panel's light boundaries are.
+
+![cloth placement check on EL panel](img/el-cut-2.jpg)
+
+Cover the strip with electrical tape to re-enforce it and make sure there's minimal light bleeding
+outside of the area we're interested in.
+
+![cover EL access strip with electrical tape](img/el-cut-3.jpg)
+
+Remove the masking tape if need be and do a final spot check to
+make sure the patch looks good.
+
+![EL patch spot check](img/el-cut-4.jpg)
+
+Do this for all three panels before moving on.
+
 
 Step 4 : Align and Affix to Jacket
 ---
+
+![patch blocking on back of jacket](img/final-affix-0.jpg)
+
+Before commiting to gluing everything together, we want to position
+the panels as they'll be placed on the jacket.
+Place the patches as best you can on the back of the jacket and block
+out where they'll be with masking tape.
+The masking tape will be used as guides when doing final placement.
+There should be a bit of leeway in positioning the patches so it doesn't need
+to be highly accurate.
+
+
+
+
+rough position 
+to make sure 
 
 * align art on jacket
 * cut el panel wire acces in jacket
