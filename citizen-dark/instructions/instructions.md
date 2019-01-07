@@ -343,26 +343,61 @@ if it inadvertently caused a short or pierced the plastic.
 ![strain relief, testing panel](img/strain-relief-5.jpg)
 
 
-Step 3 : Make EL Patches
+Step 3 : Cut EL Panels and Rough Patch Alignment
 ---
 
 ![gloriously cut cloth patches](img/cut-overview-0.jpg]
 
+![gloriously cut cloth patches](img/cut-overview-1.jpg]
+
 Once the cloth portion of the patches has been cut, we can now
 start cutting the EL panels to fit the cloth patches and align them
 to the jacket.
-The basic plan is to align the cloth patches on top of the EL panels,
-cut the excess EL panel to fit the cloth patch then glue the patch
-onto the panel.
 
-![cut patches on top of uncut EL panels](img/cut-overview-1.jpg)
+Cutting the panels is a little dependent on the placement in the back of the jacket.
+We want to make the access cuts on the back of the jacket as innocuous as possible,
+so we'll want to cut the EL panels so they'll place well on the back of the jacket.
 
-The first thing to do is to align the cloth patch on top of the EL panel
-and mark where the excess EL panel should be cut.
+The basic workflow is to get a sense for where the patches will be on the jacket,
+along with where the access holes need to be cut.
+Once we're happy with positioning, we can cut the EL panel and make sure it
+can be placed well on the back of the jacket.
+We'll go back and forth between spot checking placement on the back of the
+jacket, cutting the EL panel, making sure the cloth can be aligned over
+the EL panel and cutting access holes in the jacket.
+
+![patch blocking on back of jacket](img/placement-0.jpg)
+
+
+Place the patches as best you can on the back of the jacket and block
+out where they'll be with masking tape.
+The masking tape will be used as guides when doing final placement.
+There should be a bit of leeway in positioning the patches so it doesn't need
+to be highly accurate.
+
+
+![patch blocking on back of jacket](img/placement-1.jpg)
+
+Align the EL panel on top of the back of the jacket where it will finally go,
+aligning it to the masking tape registration marks.
+Put the cloth portion over it to get a sense for where the cloth portion
+will overlap the EL panel portion.
+
+![...](img/placement-2.jpg)
+
 We've found that overlaying masking tape on top of the EL panel so we can mark it
-without worrying about marking the lit area works well.
+with a pencil without worrying about dirtying the lit area works well.
+Make sure to light up the EL panel when placing to make sure the cloth positioning
+and eventual patch positioning is being done in the region of the EL panel that
+actually lights up.
 
-![traced cut area for EL panel](img/el-cut-0.jpg)
+![dark placement](img/placement-3.jpg)
+
+![dark placement](img/placement-4.jpg)
+
+Trace out the portion to cut on the masking tape.
+
+![dark cut trace](img/el-cut-0.jpg)
 
 Once we've decided where to cut, cut the EL panel with scissors.
 **Don't cut the EL panel while powered. Power off the EL panel while
@@ -396,6 +431,58 @@ make sure the patch looks good.
 
 ![EL patch spot check](img/el-cut-4.jpg)
 
+We'll now cut an access hole in the jacket and do some spot checks to make
+sure the panels still can be positioned where we want them to be.
+
+First cut an access hole in the jacket to feed the EL panel strip through.
+
+![cut access hole](img/jacket-el-feed-cut-0.jpg)
+
+Once the access hole is cut, we can feed the EL panel through and do a spot
+check to make it can still be placed where we want it to.
+
+![feed el strip through access hole](img/el-placement-test-0.jpg)
+
+![check dark patch placement](img/el-placement-test-1.jpg)
+
+Once this is done for the "DARK" patch, do the same for the moth patch and the "CITIZEN" patch.
+
+![moth placement](img/moth-patch-placement-0.jpg)
+
+![moth placement](img/moth-patch-placement-1.jpg)
+
+![moth placement](img/moth-patch-placement-2.jpg)
+
+![moth placement](img/moth-patch-placement-3.jpg)
+
+![moth placement](img/moth-patch-placement-4.jpg)
+
+![moth placement](img/moth-patch-placement-5.jpg)
+
+
+![top placement](img/top-patch-placement-0.jpg)
+
+![top placement](img/top-patch-placement-1.jpg)
+
+
+To get a better handle on where to cut the access hole, you can use
+masking tape and some marks.
+
+![top placement](img/top-patch-placement-2.jpg)
+
+![top placement](img/top-patch-placement-3.jpg)
+
+Now we have a good idea that the patches can be aligned and placed
+on the back of the jacket, it's time to glue the cloth portion
+to the EL panel and place them in their final position on the jacket.
+
+Step 4 : Glue Cloth onto EL Panels
+---
+
+Before gluing, do a rough spot check to make sure everything is aligned and looks good.
+
+![patch blocking on back of jacket](img/final-affix-0.jpg)
+
 Once we're happy with the rough placement, it's time to glue the cloth portion
 to the EL panel.
 The synthetic material along with the plastic on the EL panel means that not
@@ -427,54 +514,179 @@ up, they're not noticeable.
 Gorilla glue takes 2-4 hours to be dry enough for handling.
 Glue each cloth panel to it's corresponding EL panel and let it dry.
 
-Once all three patches are dry, we're ready to do the final placement on the back of the jacket.
+Once all three patches are dry, we'll be ready to do the final placement on the back of the jacket.
 
 
-
-Step 4 : Align and Affix to Jacket
----
-
-![patch blocking on back of jacket](img/final-affix-0.jpg)
-
-Before commiting to gluing everything together, we want to position
-the panels as they'll be placed on the jacket.
-Place the patches as best you can on the back of the jacket and block
-out where they'll be with masking tape.
-The masking tape will be used as guides when doing final placement.
-There should be a bit of leeway in positioning the patches so it doesn't need
-to be highly accurate.
-
-
-
-
-rough position 
-to make sure 
-
-* align art on jacket
-* cut el panel wire acces in jacket
-* cut access in lining
-* confirm patch position
-* attach velcro to jacket
-* affix patch to jacket (velcro)
-* wire through lining
-* test el panel
-* do something with open hole in lining (snaps, sewing, velcro, etc.)
 
 Step 5 : Add Inverter and Connect EL Patches
 ---
 
-* add wire splitters and wire extensions
-* cut hole in pocket lining
-* wire inverter through and connect to wire network
-* test
+Since the glue takes a while to dry, we can do add the inverter to the inside of the lining of the jacket
+while we wait.
 
-Step 6 : Further Resources
+The first thing to do is to cut a hole in the lining on one side of the jacket.
+Different jackets have different pocket options so you'll have to be creative on where you
+want this to be placed but it's probably better to have the hole in the lining cut close
+to the pocket where the inverter and battery pack will reside.
+
+![cut lining](img/side-access-0.jpg)
+
+This access will serve as a way of putting the inverter into a side pocket, allowing access to the battery
+pack so that the batteries can be replaced and allow for your hand to go through the lining and back jacket
+interface to connect the panels to the inverter.
+
+![cut lining](img/side-access-1.jpg)
+
+You can wave a lighter over the cut area of the lining to singe the frayed ends (be careful you don't catch
+anything on fire).
+You can also place a velcro patch on either side of the lining so that it will stay closed.
+
+Now put some velcro on the inverter and on the inside of the lining, where the inverter will be placed,
+so that it stays in place.
+
+![inverter placement](img/inverter-0.jpg)
+
+Whatever pocket there is, make sure the inverter can be accessed through it so the panels can be turned on and
+off without having to open up the side lining.
+
+![inverter pocket access](img/inverter-1.jpg)
+
+Step 6 : Solder Wire Extensions
 ---
 
-* links to all art used for these designs
-* links to public domain art
+At this point the glue is still probably drying so it's a good time to do the other things that
+might be needed that don't directly relate to EL patch placement.
+
+
+This step might be optional depending on how long the wires are on your EL panels, inverter
+and wire splitters.
+Often the EL panels don't have long wires coming out of them so they need to be extended to be able
+to reach the wire splitter that eventually runs to the inverter.
+
+The extension will be wiring a male and female connector together, making sure to match colored wires.
+Strip the ends of the wires and wrap them around their corresponding mate, making sure to put
+heat shrink tubing on the wire before wrapping them together.
+
+![helping hands make idle work](img/wire-extend-0.jpg)
+
+Use the helping hands to hold the wires in place, put some flux on the exposed wires and solder them
+together.
+
+Once soldered, move the heat shrink tubing over the exposed soldered joint and use the heat gun to shrink the tubing.
+
+![wire extensions](img/wire-extend-1.jpg)
+
+These wires can be used to extend the EL panels should the wires that come out of them be too short
+to connect to the wire splitter.
+Make sure to test each on an EL panel to make sure the solder joint is good.
+
+Step 6 : Affix EL Patches to Jacket
+---
+
+![final affix](img/final-affix-0.jpg)
+
+Once the glue is dry on the patches, it's finally time to put them in their final place on the jacket.
+
+First place velcor on the back of the EL patches.
+
+![velcro on back of patches](img/velcro-0.jpg)
+
+Feed each of the patch strips through the access holes in the back of the jacket.
+
+![feed velcro](img/final-affix-1.jpg)
+
+Expose the other end of the sticky back of the velcro.
+
+![expose velcro sticky](img/final-affix-2.jpg)
+
+Firmly press down on each patch to make sure the velcro sticky back finds purchase and wait
+till the velcro glue sets up.
+
+Once things are in place, wire each of the panels through the wire splitter and finally to the inverter.
+Test to make sure the jacket still lights up.
+
+Hopefully everything should have worked and you should have a working cyberpunk jacket!
+
+![cyberpunk](img/back.jpg)
+
+![moth detail](img/moth-detail.jpg)
+
 
 Step 7 : Wear It
 ---
 
-...
+![wear shot](img/wall-fist.jpg)
+
+Troubleshooting
+---
+
+There are some commong failures that tend to occur:
+
+### Nothing lights up!
+
+* Check all wire connections, both in making sure they physically look connected and that they have continuity.
+* Check to make sure the batteries are all connected int he battery pack and that they
+  have charge. Make sure the battery pack is connected to the inverter.
+* Check the inverter works (either by swapping it out or testing it on another panel). Often inverters die.
+* Check each of the panels individually with another inverter or battery pack to make sure they work in isolation.
+
+As with any troubleshooting, the purpose is to determine where the problem is.
+Is it happening after the batter pack or before?
+Is it happening after the inverter or before?
+Is it happening at the EL panel or before?
+
+Try to do the simple test to figure out where the problem is generally so you can drill down to where the problem
+is occuring specifically.
+
+Finding out where the problem is will tell you whether you need to change the batteries, resolder connections, replace
+the inverter or replace the panel.
+
+### A single panel doesn't light up!
+
+* Check to make sure the panel is connected to the wire splitter or inverter.
+* Test the EL panel individually to see if it's a problem with the panel or something else before coming to the panel.
+
+If it's not the inverter or connecting wires, this might mean the panel itself has failed.
+Some common failures we've seen are:
+
+* The solder joints where the wires connect to the panel fray off (which is why we tried to put some strain relief on them),
+* The connecting EL 'strip' gets bend and breaks the connection to the rest of the panel.
+* Cutting the panel, soldering onto the panel or screwing through the panel causes a short and the panel doesn't work.
+
+Most of these are catastrophic failure conditions and only rarely does the EL panel not need to be replaced when they
+fail.
+
+### A single panel lights up intermittantly or flickers!
+
+This is most often due to a frayed or loose connection.
+Do the obvious checks of making sure the connections are secure from the EL panel to the wire splitter
+and that the connecting wires have good continuity.
+
+In most cases, though, this means the EL panel will most likely need to be replaced.
+We've had some success in resoldering connections to the EL panel but this needs to be done with
+care as the plastic sheets sandwitching the EL paint are conductive and a mis-solder on where the wire connects
+to the panel might cause a short, rendering the EL panel useless.
+
+### The Inverter Emits a High "Buzzing"
+
+Most inverters we've used have a high pitched 'whine', which is normal, but occasionally when inverters fail, they
+start to "buzz", which sounds different from their normal whining.
+This usually means the inverter is malfunctioning or dying and probably needs to be replaced.
+It might inconsistently light up the panels, or dimly light up the panels, which is another symptom that the
+inverter is dying.
+
+### The Inverter Emits a High Pitched Whine
+
+This is normal.
+
+EL panels operate by pushing a high voltage, high frequency alternating current signal across the EL paint
+to fluresce.
+The originating power source is coming from a 12V DC battery pack (from 6 AA batteries).
+This means the the 12V DC current needs to be converted to around a 100V 1000Hz signal.
+
+The 1000Hz signal sonds to most people like a high pitched whine.
+I've heard that the culprit in most inverters is a capacitor that resonates at that frequency which is
+why the whine is audible.
+
+The good news is that the inverter is covered by the jacket and even modest background noise (at a club, in a bar, normal conversation) will make the inverter whine unnoticeable.
+
