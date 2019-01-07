@@ -382,19 +382,19 @@ to be highly accurate.
 Align the EL panel on top of the back of the jacket where it will finally go,
 aligning it to the masking tape registration marks.
 Put the cloth portion over it to get a sense for where the cloth portion
-will overlap the EL panel portion.
+will overlap the EL panel.
 
 ![...](img/placement-2.jpg)
 
-We've found that overlaying masking tape on top of the EL panel so we can mark it
-with a pencil without worrying about dirtying the lit area works well.
-Make sure to light up the EL panel when placing to make sure the cloth positioning
+We've found that overlaying masking tape on top of the EL panel, so we can mark it
+with a pencil without worrying about dirtying the lit area, works well.
+Make sure to turn on the EL panel when placing to make sure the cloth positioning
 and eventual patch positioning is being done in the region of the EL panel that
 actually lights up.
 
-![dark placement](img/placement-3.jpg)
-
 ![dark placement](img/placement-4.jpg)
+
+![dark placement](img/placement-3.jpg)
 
 Trace out the portion to cut on the masking tape.
 
@@ -555,10 +555,6 @@ off without having to open up the side lining.
 Step 6 : Solder Wire Extensions
 ---
 
-At this point the glue is still probably drying so it's a good time to do the other things that
-might be needed that don't directly relate to EL patch placement.
-
-
 This step might be optional depending on how long the wires are on your EL panels, inverter
 and wire splitters.
 Often the EL panels don't have long wires coming out of them so they need to be extended to be able
@@ -579,7 +575,7 @@ Once soldered, move the heat shrink tubing over the exposed soldered joint and u
 
 These wires can be used to extend the EL panels should the wires that come out of them be too short
 to connect to the wire splitter.
-Make sure to test each on an EL panel to make sure the solder joint is good.
+Test each on an EL panel to make sure the solder joint is good.
 
 Step 6 : Affix EL Patches to Jacket
 ---
@@ -613,7 +609,7 @@ Hopefully everything should have worked and you should have a working cyberpunk 
 ![moth detail](img/moth-detail.jpg)
 
 
-Step 7 : Wear It
+Step 7 : Wear It!
 ---
 
 ![wear shot](img/wall-fist.jpg)
@@ -626,7 +622,7 @@ There are some commong failures that tend to occur:
 ### Nothing lights up!
 
 * Check all wire connections, both in making sure they physically look connected and that they have continuity.
-* Check to make sure the batteries are all connected int he battery pack and that they
+* Check to make sure the batteries are all connected in the battery pack and that they
   have charge. Make sure the battery pack is connected to the inverter.
 * Check the inverter works (either by swapping it out or testing it on another panel). Often inverters die.
 * Check each of the panels individually with another inverter or battery pack to make sure they work in isolation.
@@ -654,8 +650,7 @@ Some common failures we've seen are:
 * The connecting EL 'strip' gets bend and breaks the connection to the rest of the panel.
 * Cutting the panel, soldering onto the panel or screwing through the panel causes a short and the panel doesn't work.
 
-Most of these are catastrophic failure conditions and only rarely does the EL panel not need to be replaced when they
-fail.
+Most of these are catastrophic failure conditions and only rarely does the EL panel not need to be replaced.
 
 ### A single panel lights up intermittantly or flickers!
 
@@ -690,4 +685,24 @@ I've heard that the culprit in most inverters is a capacitor that resonates at t
 why the whine is audible.
 
 The good news is that the inverter is covered by the jacket and even modest background noise (at a club, in a bar, normal conversation) will make the inverter whine unnoticeable.
+
+References
+----
+
+
+* ['Among the moths and butterflies: a revised and enlarged edition of "insect lives ; or, Born in prison"' (pg. 122)](https://archive.org/details/amongmothsbutter00balluoft/page/122) by Julio P. Ballard (Julia Perkins).
+* ["Les merveilles celestes, lectures du soir" (pg. 328)](https://archive.org/details/lesmerveillesc00flam/page/328) by Camille Flammarion.
+* [Dryocampa imperialis](http://dpr.ncparks.gov/moths/view.php?MONA_number=7715.00)
+* [Blackout font by The League of Moveable Type](https://github.com/theleagueof/blackout)
+
+License
+---
+
+![cc0](/img/cc/thin/cc-zero.svg)
+
+All art, code and other content, unless explicitely stated otherwise, is available under a
+Creative Commons Zero license ([CC0](https://creativecommons.org/share-your-work/public-domain/cc0/))
+
+Please use these design, art and all source files in this directory as you wish.
+Credit is appreciated but not necessary.
 
