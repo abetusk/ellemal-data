@@ -1,0 +1,5 @@
+#!/bin/bash
+
+node spline-outline.js | ./tosvg.py
+
+echo "SVG file 'border.svg' created"

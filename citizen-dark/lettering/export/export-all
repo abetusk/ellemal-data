@@ -1,0 +1,7 @@
+#!/bin/bash
+
+./svg2ngc ../wd/dark-border_v0.1.1.svg
+./cleanup.sh ./dark-border_v0.1.1.ngc
+
+./svg2ngc ../wd/citizen-border_v0.1.1.svg
+./cleanup.sh ./citizen-border_v0.1.1.ngc
