@@ -162,7 +162,7 @@ it to make it as close to a two color stencil as possible.
 ![GIMP threshold](img/gimp-threshold-moth.jpg)
 
 We added some other effects, like a triangle that inverts the base moth image,
-a dotted circle and an styalized eclipse at the bottom (taking as source
+a dotted circle and an stylized eclipse at the bottom (taking as source
 material another [Archive.org link to a lunar eclipse](https://archive.org/details/lesmerveillesc00flam/page/328))
 
 The white pixels will be 'burned' by the laser cutter.
@@ -176,7 +176,7 @@ We found that reinforcing thin black lines to be at least 2-4 pixels wide
 with 2-4 pixels spacing between other black regions, worked well.
 This is dependent on image resolution and final physical design size,
 so this might need a few iterations to determine which regions to
-re-enforce and by how much.
+reinforce and by how much.
 We also added some 'noise' to the wings by choosing a "noisy" brush
 and added some jitter to give some randomness.
 This extra noise helps reinforce the material as the laser won't burn the
@@ -287,7 +287,7 @@ and the speed accordingly.
 
 Each GCode file is sent individually to the laser cutter to be cut.
 If the cut isn't the quality that you want, the original artwork
-might need to be altered to accomodate.
+might need to be altered to accommodate.
 Options for troubleshooting bad cuts this will be dependent on the art,
 the laser cutter and the materials being cut.
 
@@ -327,7 +327,7 @@ together by 6 M2 screws.
 The wire coming out of the EL panel should be wrapped around and then
 fed through the middle of the two pieces.
 The end of the panel as well as the wire coming out of the strain relief
-are sandwitched between the two pieces and kept securely in place
+are sandwiched between the two pieces and kept securely in place
 by tightening the M2 screws.
 
 ![strain relief wire placement](img/strain-relief-2.jpg)
@@ -407,7 +407,7 @@ When cutting the EL panel with scissors, you want to make sure not to
 twist or bend the panel, scissors or shear line where you're cutting.
 We want to keep the top and bottom layer of the plastic coating on the
 EL panel as undisturbed as possible to make sure there's a solid connection
-so the whole panel can fluresce.
+so the whole panel can fluoresce.
 
 We want to leave a portion of the EL panel available so that it can go into
 a cut access hole in the back of the jacket.
@@ -499,7 +499,7 @@ panel.
 Don't put too much as the Gorilla glue will expand and be messy.
 Try to get the thin regions of the cloth as they'll tend to flop around.
 
-![intial glue on cloth](img/glue-1.jpg)
+![initial glue on cloth](img/glue-1.jpg)
 
 Now affix the cloth to the EL panel and wait for the glue to dry.
 Do fine adjustments, with the EL panel turned on, to make sure the cloth
@@ -584,7 +584,7 @@ Step 6 : Affix EL Patches to Jacket
 
 Once the glue is dry on the patches, it's finally time to put them in their final place on the jacket.
 
-First place velcor on the back of the EL patches.
+First place velcro on the back of the EL patches.
 
 ![velcro on back of patches](img/velcro-0.jpg)
 
@@ -617,7 +617,7 @@ Step 7 : Wear It!
 Troubleshooting
 ---
 
-There are some commong failures that tend to occur:
+There are some common failures that tend to occur:
 
 ### Nothing lights up!
 
@@ -633,7 +633,7 @@ Is it happening after the inverter or before?
 Is it happening at the EL panel or before?
 
 Try to do the simple test to figure out where the problem is generally so you can drill down to where the problem
-is occuring specifically.
+is occurring specifically.
 
 Finding out where the problem is will tell you whether you need to change the batteries, resolder connections, replace
 the inverter or replace the panel.
@@ -652,7 +652,7 @@ Some common failures we've seen are:
 
 Most of these are catastrophic failure conditions and only rarely does the EL panel not need to be replaced.
 
-### A single panel lights up intermittantly or flickers!
+### A single panel lights up intermittently or flickers!
 
 This is most often due to a frayed or loose connection.
 Do the obvious checks of making sure the connections are secure from the EL panel to the wire splitter
@@ -660,7 +660,7 @@ and that the connecting wires have good continuity.
 
 In most cases, though, this means the EL panel will most likely need to be replaced.
 We've had some success in resoldering connections to the EL panel but this needs to be done with
-care as the plastic sheets sandwitching the EL paint are conductive and a mis-solder on where the wire connects
+care as the plastic sheets sandwiching the EL paint are conductive and a mis-solder on where the wire connects
 to the panel might cause a short, rendering the EL panel useless.
 
 ### The Inverter Emits a High "Buzzing"
@@ -676,11 +676,11 @@ inverter is dying.
 This is normal.
 
 EL panels operate by pushing a high voltage, high frequency alternating current signal across the EL paint
-to fluresce.
+to fluoresce.
 The originating power source is coming from a 12V DC battery pack (from 6 AA batteries).
 This means the the 12V DC current needs to be converted to around a 100V 1000Hz signal.
 
-The 1000Hz signal sonds to most people like a high pitched whine.
+The 1000Hz signal sounds to most people like a high pitched whine.
 I've heard that the culprit in most inverters is a capacitor that resonates at that frequency which is
 why the whine is audible.
 
@@ -700,7 +700,7 @@ License
 
 ![cc0](/img/cc/thin/cc-zero.svg)
 
-All art, code and other content, unless explicitely stated otherwise, is available under a
+All art, code and other content, unless explicitly stated otherwise, is available under a
 Creative Commons Zero license ([CC0](https://creativecommons.org/share-your-work/public-domain/cc0/))
 
 Please use these design, art and all source files in this directory as you wish.
