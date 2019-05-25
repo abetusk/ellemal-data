@@ -1,6 +1,8 @@
 Bat Patch
 ===
 
+![bat patch](img/bat-patch.png)
+
 Using GIMP, these are some important steps:
 
 * Carve out the relevant section of [Haeckel's original plate](https://en.wikipedia.org/wiki/Bat#/media/File:Haeckel_Chiroptera.jpg)
